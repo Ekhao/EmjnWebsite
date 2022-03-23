@@ -3,6 +3,11 @@ body {
     text-align: center;
     margin-left: 15%;
     margin-right: 15%;
+    margin-top: 5%;
+}
+
+section {
+    display:none;
 }
 
 a {
@@ -13,6 +18,7 @@ a {
 
 a:hover {
     text-decoration: underline;
+    cursor: pointer;
 }
 
 address {
@@ -21,4 +27,5 @@ address {
 
 ul {
     list-style-type: none;
+    padding-left: 0;
 }
