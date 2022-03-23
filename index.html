@@ -1,87 +1,71 @@
-<!DOCTYPE HTML>
-<!--
-	Astral by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Emil Njor</title>
+        <link rel="stylesheet" href="style.css"/>
+        <script src="script.js"></script>
+        <link rel="icon" type="image/x-icon" href="images/dtu-favicon.ico"/>
+        <meta charset="UTF-8"/>
+        <meta name="keywords" content="tinyML, Academic, PhD, Student Projects, Contact, Publications"/> 
+        <meta name="description" content="Academic web page for Emil Njor"/>
+        <meta name="author" content="Emil Njor"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+    <body>
+        <header>
+        <img src="images/emilnjor.png" title="That's a picture of me!" alt="Picture of Emil Njor" style="
+            max-width: 30%;
+            height:30%;
+            border-radius: 20%;
+            "/>
+            <h1>Emil Njor</h1>
+            <nav>
+                <a onclick="showSection('about')">About Me</a> |
+                <a onclick="showSection('publications')">Publications</a> | 
+                <a onclick="showSection('projects')">Student Projects</a> |
+                <a onclick="showSection('contact')">Contact Information</a>
+            </nav>
+        </header>
 
-<head>
-	<title>Emil Njor</title>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-	<link rel="stylesheet" href="assets/css/main.css" />
-	<noscript>
-		<link rel="stylesheet" href="assets/css/noscript.css" />
-	</noscript>
-</head>
+        <section id="about" style="display: block;">
+            <h2>About Me</h2>
+            <p>I am a PhD Student at the <a href="https://www.compute.dtu.dk/english/research/Research-sections/ESE">Embedded Systems Engineering</a> (ESE) section of the 
+                <a href="https://www.compute.dtu.dk/english">DTU Compute</a> at the <a href="https://www.dtu.dk/english">Technical University of Denmark</a>.
+                I do research in predictive maintenance using <abbr title="A term for machine learning running on microcontrollers">tinyML</abbr>.
+                I am happy to supervise any BSc or MSc who are interested in working with tinyML.
+                See the <a href="#projects">Student Projects</a> part of this website for more information.
+                I started my PhD studies on the 1st of September 2021, and I expect to finish my studies on the 31st of August 2024. 
+                My supervisors are <a href="http://people.compute.dtu.dk/xefa/">Xenofon Fafoutis</a> as main supervisor and <a href="http://people.compute.dtu.dk/jama/">Jan Madsen</a> as co-supervisor.
+                I am a Teaching Assistant at the <a href="https://kurser.dtu.dk/course/02159/">Operating Systems</a> and <a href="https://kurser.dtu.dk/course/02229">Systems Optimization</a> courses.
+            </p>
+        </section>
 
-<body class="is-preload">
+        <section id="publications">
+            <h2>Publications</h2>
+            <ul>
+                <li>Njor, Emil J., et al. "Conformance Testing in UPPAAL: A diabolic approach." 2020 IEEE International Conference on Software Testing, Verification and Validation Workshops (ICSTW). IEEE, 2020.</li>
+            </ul>
+        </section>
 
-	<!-- Wrapper-->
-	<div id="wrapper">
+        <section id="projects">
+            <h2>Student Projects</h2>
+            <p>I unfortunately do not have any published student projects at the moment, but feel free to contact me if you are interested in tinyML.</p>
+        </section>
 
-		<!-- Nav -->
-		<nav id="nav">
-			<a href="#" class="icon solid fa-home"><span>Home</span></a>
-			<a href="#work" class="icon solid fa-folder"><span>Publications</span></a>
-			<a href="#contact" class="icon solid fa-envelope"><span>Contact</span></a>
-		</nav>
-
-		<!-- Main -->
-		<div id="main">
-
-			<!-- Me -->
-			<article id="home" class="panel intro">
-				<header>
-					<h1>Emil Njor</h1>
-					<p>PhD Student</p>
-				</header>
-				<a href="#work" class="jumplink pic">
-					<span class="arrow icon solid fa-chevron-right"><span>See my work</span></span>
-					<img src="images/me.png" alt="" />
-				</a>
-			</article>
-
-			<!-- Work -->
-			<article id="work" class="panel">
-				<header>
-					<h2>Publications</h2>
-				</header>
-				<p>
-					This is where I would post my publications if i had any
-				</p>
-			</article>
-
-			<!-- Contact -->
-			<article id="contact" class="panel">
-				<header>
-					<h2>Contact Details</h2>
-				</header>
-				<p>
-					Email: <a href="mailto:emjn@dtu.dk">emjn@dtu.dk</a>
-					Phone: (+45)60699096
-				</p>
-			</article>
-
-		</div>
-
-		<!-- Footer -->
-		<div id="footer">
-			<ul class="copyright">
-				<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-			</ul>
-		</div>
-
-	</div>
-
-	<!-- Scripts -->
-	<script src="assets/js/jquery.min.js"></script>
-	<script src="assets/js/browser.min.js"></script>
-	<script src="assets/js/breakpoints.min.js"></script>
-	<script src="assets/js/util.js"></script>
-	<script src="assets/js/main.js"></script>
-
-</body>
-
+        <section id="contact">
+            <h2>Contact Information</h2>
+            <address>
+                Emil Njor<br>
+                PhD Student<br>
+                <br>
+                +45 60 69 90 96<br>
+                <a href="mailto:emjn@dtu.dk">emjn@dtu.dk</a><br>
+                Richard Petersens Plads<br>
+                Building 322<br>
+                2800 Kgs. Lyngby<br>
+                Denmark<br>
+                <a href="http://people.compute.dtu.dk/emjn">http://people.compute.dtu.dk/emjn</a>
+            </address>
+        </section>
+    </body>
 </html>
