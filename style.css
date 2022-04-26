@@ -6,11 +6,11 @@ body {
     margin-top: 5%;
 }
 
-section {
+section, section:target ~ section#about{
     display: none;
 }
 
-section:target {
+section#about, section:target {
     display: block;
 }
 
